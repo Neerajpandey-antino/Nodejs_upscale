@@ -16,7 +16,7 @@ const server = http.createServer((req, res) => {
     res.end("This is About page");
   } else if (url === "/contact") {
     res.writeHead(200, { "Content-Type": "text/plain" });
-    res.end("This is About page");
+    res.end("This is Contact page");
   } else {
     res.writeHead(404, { "Content-Type": "text/plain" });
     res.end("No Page found");
